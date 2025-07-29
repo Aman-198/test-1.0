@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: "Segoe UI", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.copy-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.label {
+  color: #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: block;
+}
+
+.input-copy-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-field {
+  flex: 1;
+  background-color: #292929;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.copy-section {
+  position: relative;
+  margin-left: 10px;
+}
+
+.copy-icon {
+  background-color: #00c2ff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.copy-icon:hover {
+  background-color: #00a8dc;
+}
+
+.copied-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 6px;
+  background-color: #00c2ff;
+  color: black;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
