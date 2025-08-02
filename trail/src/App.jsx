@@ -7,7 +7,7 @@ const App = () => {
   const [copiedPassword, setCopiedPassword] = useState(false);
 
   const userId = "Hello World";
-  const password = "MAE123";
+  const password = "12364";
 
   const handleCopy = (text, setCopied) => {
     navigator.clipboard.writeText(text);
